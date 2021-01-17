@@ -1,0 +1,15 @@
+
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "",
+  "database": "nest-start2",
+  "logging": true,
+  "entities": [
+
+    "./dist/features/**/*.model.js"
+  ],
+  "synchronize": true
+}
